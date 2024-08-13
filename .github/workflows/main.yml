@@ -25,4 +25,4 @@ jobs:
       run: dotnet build ./Todos.WebAPI.sln --configuration Release
   
     - name: Publish
-      run: dotnet publish ./Todos.WebAPI.csproj --configuration Release --no-build
+      run: dotnet publish ./Todos.WebAPI.sln --configuration Release --no-build
